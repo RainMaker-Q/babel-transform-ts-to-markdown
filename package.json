@@ -1,0 +1,22 @@
+{
+  "name": "babel-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/parser": "^7.23.4",
+    "@babel/plugin-syntax-typescript": "^7.23.3",
+    "@babel/preset-env": "^7.23.3"
+  }
+}
